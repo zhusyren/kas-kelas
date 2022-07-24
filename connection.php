@@ -5,10 +5,10 @@
 	
 	date_default_timezone_set("Asia/Jakarta");
 
-	$host		= "sql208.epizy.com";
-	$username	= "epiz_32220604";
-	$password	= "5caEHKua0K";
-	$database	= "epiz_32220604_kas";
+	$host		= "localhost";
+	$username	= "root";
+	$password	= "12345";
+	$database	= "kas";
 
 	$conn 		= mysqli_connect($host, $username, $password, $database);
 	if ($conn) {
